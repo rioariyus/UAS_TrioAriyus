@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "469909303606",
+    "firebase_url": "https://rumah-sakit-pbp.firebaseio.com",
+    "project_id": "rumah-sakit-pbp",
+    "storage_bucket": "rumah-sakit-pbp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469909303606:android:8a97f9bf44f8930e",
+        "android_client_info": {
+          "package_name": "com.example.abimuliawans.rumahsakittugasbesarpbp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469909303606-a101gl4hmftvjguqc50dolqfpdjo0le6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abimuliawans.rumahsakittugasbesarpbp",
+            "certificate_hash": "f314aaaadeeb5265ee35a447f15859a8fcd8d026"
+          }
+        },
+        {
+          "client_id": "469909303606-0bvblpf3tmpb1v3s6jbbjnkl9nn54nsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB42h3Nh2NvM83JQj3mqiy13VBAMfs7pgE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469909303606-0bvblpf3tmpb1v3s6jbbjnkl9nn54nsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

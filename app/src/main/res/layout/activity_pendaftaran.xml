@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroudregistration"
+    tools:context=".PendaftaranActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="181dp"
+        android:layout_height="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/daftar"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Spinner
+        android:id="@+id/daftarDokter"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tv_dateresult"
+        android:layout_marginBottom="186dp"
+        android:background="@android:color/background_light"
+        android:entries="@array/daftarDokter" />
+
+    <Button
+        android:id="@+id/bt_datepicker"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/daftarDokter"
+        android:layout_alignTop="@+id/tv_dateresult"
+        android:text="Pilih Tanggal"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/tv_dateresult"
+        android:layout_width="166dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnDaftar"
+        android:layout_marginBottom="112dp"
+        android:background="@android:color/background_light"
+        android:text="Tanggal dipilih : " />
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/oval"
+        android:text="Daftar Dokter"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/daftarDokter"
+        android:layout_marginBottom="226dp"
+        android:text="Pilih Dokter" />
+</RelativeLayout>

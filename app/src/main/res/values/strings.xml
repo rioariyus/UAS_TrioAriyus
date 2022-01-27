@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rumah Sakit (Tugas Besar PBP)</string>
+    <string name="google_maps_API_key">AIzaSyB42h3Nh2NvM83JQj3mqiy13VBAMfs7pgE</string>
+
+    <string-array name="daftarDokter">
+        <item>Dr. Agus Hadi</item>
+        <item>Dr. Rahmat Santosa</item>
+        <item>Dr. Paula Juli</item>
+        <item>Dr. Jusuf Setiawan</item>
+    </string-array>
+
+    <string-array name="jenisKelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="golonganDarah">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+</resources>
